@@ -1,0 +1,193 @@
+body{
+    background-color: #8c8c8c;
+    overflow-y: hidden;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+span {
+    font-family: sans-serif;
+}
+
+/*  Окно меню на старте  */
+
+.mainMenu {
+    position: absolute;
+    margin: auto;
+    width: 250px;
+    height: 330px;
+    background-color: #262626;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.logo {
+    position: relative;
+    width: 125px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.menuItems {
+    position: relative;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.logo1 {
+    position: relative;
+    margin: auto;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.logo1 img {
+    width: 50px;
+}
+
+.autor {
+    position: relative;
+    margin: auto;
+    width: 100px;
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+}
+
+button {
+    background: none;
+    font-size: 18px;
+    color: aliceblue;
+    padding: 0px;
+    border: 0px;
+    padding: 10px;
+}
+
+ /*  Об игре  */
+
+.aboutMenu {
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    background-color: #616161;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.desc {
+    position: relative;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.desc p {
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.git {
+    position: relative;
+    margin: auto;
+    width: 150px;
+}
+
+.git img {
+    width: 150px;
+}
+
+.closeAbout {
+    float: right;
+    margin-right: 20px;
+}
+
+/* Страница поддержки*/
+
+.donateMenu {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    margin: 15% auto;
+    background-color: #616161;
+    border-radius: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.donateMenu img {
+    margin-top: 20px;
+}
+
+.closeDonate {
+    float: right;
+    margin-right: 20px;
+}
+
+/* Страница информации */
+
+.infoMenu {
+    position: relative;
+    margin: 5% auto;
+    width: 800px;
+    height: 800px;
+    background-color: #616161;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+.infoMenu img {
+    margin-top: 20px;
+}
+
+.infoMenu p {
+    text-align: center;
+}
+
+.infoMenu span {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.infoText {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.closeInfo {
+    float: right;
+    margin-right: 20px;
+}
+
+
+/* Анимации и прочее */
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade{from{opacity: 1;}to{opacity: 0;}}
+
+.showAnim {
+    animation-name: showAnim;
+    animation-duration: 1.5s;
+}
+
+@keyframes showAnim{from{opacity: 0;}to{opacity: 1;}}
